@@ -1,0 +1,23 @@
+/** border of the whole slideshow */
+.slideshow_container {
+    border: 1px solid #012739;
+}
+
+/** header of the text container */
+.slideshow_text_container .slideshow_text_header {
+    border-bottom: 4px double #b0e6ff;
+    padding-bottom: 4px;
+    font-size: large;
+    font-weight: bold;
+}
+
+/** style of the header link */
+.slideshow_text_container .slideshow_text_header a, .slideshow_text_container .slideshow_text_header a:visited {
+    color: #b0e6ff;
+    text-decoration: none;
+}
+
+/** style of the text under the header */
+.slideshow_text_container .slideshow_text {
+    color: white;
+}

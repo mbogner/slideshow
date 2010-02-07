@@ -1,0 +1,38 @@
+.slideshow_container {
+    padding: 2px;
+    height: 250px;
+    margin-bottom: 15px;
+    z-index: 4;
+}
+
+.slideshow_inner {
+    position: relative;
+    height: 100%;
+    background: black url('/images/slideshow/loading_black.gif') 50% 50% no-repeat;
+    z-index: 3;
+}
+
+.slideshow_text_container {
+    background: transparent url('/images/slideshow/transparent_bg.png');
+    height: 100%;
+    width: 240px;
+    margin-left: 50px;
+    float: left;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.slideshow_text_container .slideshow_text_header, .slideshow_text_container .slideshow_text {
+    z-index: 0;
+    margin: 15px 20px 5px 20px;
+}
+
+.slideshow_buttons {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    height: 30px;
+    z-index: 1;
+    visibility: hidden;
+}

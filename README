@@ -1,0 +1,15 @@
+h1. Slideshow
+
+Bla
+
+h2. Sample
+
+<pre>
+<%= slideshow('ss1', 0.5, 5, [
+    {:image => '0.png', :title => 'Welcome', :message => 'to the arena.', :link_to => root_path},
+    {:image => '1.png', :title => 'Test', :message => 'this is a test.', :link_to => url_for(:controller => :home, :action => :imprint) },
+    {:image => '2.png', :title => 'Blup', :message => 'this is a test too.', :link_to => url_for(:controller => :home, :action => :contact) },
+    {:image => '3.png', :title => 'ASD', :message => 'this is a test 2.', :link_to => url_for(:controller => :home, :action => :services) },
+    {:image => '4.png', :title => 'Tut', :message => 'this is also a test.', :link_to => url_for(:controller => :home, :action => :solutions) }
+  ]) %>
+</pre>
